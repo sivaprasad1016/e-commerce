@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+   
+    
+}
+
+
+
+a{
+    text-decoration:none;
+}
+
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.old_price{
+    font-weight: bold;
+    color:red;
+}
+
+.new_price{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+     
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+.cart-img{
+    max-width:120px;
+    height: auto;
+    object-fit: contain;
+    margin-right:10px;
+}
+
+.fav-img{
+    max-width:120px;
+    height: auto;
+    object-fit: contain;
+    margin-right:10px;
+}
+
+
+@media (max-width: 768px) {
+    .col-md-4, .col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4, .col-lg-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .input-group {
+        width: 100% !important;
+    }
+
+    .text-center, .text-md-start {
+        text-align: center !important;
+    }
+}
+.pic-box{
+    position: relative;
+}
+.hot {
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border-radius: 5px;
+}
