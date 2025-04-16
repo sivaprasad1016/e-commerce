@@ -1,4 +1,5 @@
 pymupdf
 google.generativeai
 django
+jazzmin
 gunicorn
